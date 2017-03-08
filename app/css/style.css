@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:700');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+  background: #eee;
+  font-family: "Roboto", sans-serif;
+}
+.head {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  color: #555;
+  margin: 30px auto;
+}
+.formWrap {
+  width: 400px;
+  margin: 0 auto;
+  border: 3px double #555;
+  padding: 10px;
+}
+form > div {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px 0;
+}
+label {
+  display: block;
+  width: 120px;
+  height: 25px;
+  font-size: 14px;
+}
+#bio {
+  resize: none;
+  width: 258px;
+  padding: 10px;
+}
+input {
+  width: 150px;
+  outline: none;
+  border: 1px solid #555;
+}
+input:focus {
+  transform: scale(1.05);
+}
+select {
+  border: 1px solid #555;
+  outline: none;
+}
+select:focus {
+  transform: scale(1.05);
+}
+textarea {
+  border: 1px solid #555;
+  outline: none;
+}
+textarea:focus {
+  transform: scale(1.05);
+}
+#submit {
+  margin: 0 auto;
+  width: 100px;
+  height: 20px;
+}
+.errorBlock {
+  width: 400px;
+  color: #FF1919;
+  text-align: center;
+  display: none;
+}
+.success {
+  background: #0DFF96;
+}
+.error {
+  background: #FF1919;
+}
+footer {
+  text-align: center;
+}

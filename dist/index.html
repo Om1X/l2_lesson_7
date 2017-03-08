@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Валидация формы</title>
+    <script src="js/main.min.js"></script>
+    <link rel="stylesheet" href="css/styles.min.css">
+</head>
+<body>
+<h1 class="head">Форма с валидацией</h1>
+<div class="formWrap">
+    <div id="error" class="errorBlock" title="Error!"></div>
+    <form id="form" action="#" method="post">
+        <div>
+            <label for="username">Имя:</label>
+            <input id="username" type="text" name="username" value="Artemka">
+
+        </div>
+        <div>
+            <label for="password"> Пароль:</label>
+            <input id="password" type="password" name="password" value="fkshfshfh">
+        </div>
+        <div>
+            <label for="email">e-mail</label>
+            <input id="email" type="email" name="email" value="test@testmail.ru">
+        </div>
+        <div>
+            <label for="gender">Пол:</label>
+            <select id="gender" name="gender">
+                <option value="m" selected>М</option>
+                <option value="f">Ж</option>
+            </select>
+        </div>
+        <div>
+            <label for="credit_card">Номер карты:</label>
+            <input id="credit_card" type="text" name="credit_card" value="5454527896396688">
+        </div>
+        <div>
+            <label for="bio">О себе:</label>
+            <textarea name="bio" id="bio" cols="30" rows="10" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus accusantium aliquam aliquid culpa cupiditate eligendi, excepturi expedita fugiat illum laboriosam magnam nam numquam officiis porro, quae repudiandae sapiente temporibus.</textarea>
+        </div>
+        <div>
+            <label for="birth">Дата рождения:</label>
+            <input id="birth" type="text" name="birth" value="1985-05-25">
+        </div>
+        <div>
+            <input id="submit" type="button" value="Отправить">
+        </div>
+    </form>
+</div>
+<footer>
+    © Артем Шашков
+</footer>
+</body>
+</html>
